@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkChat - Social Media Management Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <i><img src="BCO.d29218b9-9be4-42fd-8c8f-63f3b39ecf2b1.png" width="30px" height="30px" style="border-radius:50px;"></i>
+            <h1>SparkChat</h1>
+        </div>
+        
+        <ul class="menu">
+            <li class="menu-item active">
+                <i class="fas fa-home"></i>
+                <span>Dashboard</span>
+            </li>
+            <li class="menu-item">
+                <i class="fas fa-paper-plane"></i>
+                <span>Automation</span>
+            </li>
+            <li class="menu-item">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Scheduling</span>
+            </li>
+            <li class="menu-item">
+                <i class="fas fa-chart-line"></i>
+                <span>Analytics</span>
+            </li>
+            <li class="menu-item">
+                <i class="fas fa-robot"></i>
+                <span>AI Content</span>
+            </li>
+            <li class="menu-item">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </li>
+        </ul>
+        
+        <div style="margin-top: auto; padding: 20px 0; text-align: center;">
+            <p style="font-size: 12px; opacity: 0.7;">© 2025 SparkChat</p>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+            <div class="welcome">
+                <h2>Good morning, Sarah!</h2>
+                <p>Here's what's happening with your social accounts today.</p>
+            </div>
+            
+            <div class="search-bar">
+                <i class="fas fa-search" style="color: var(--gray);"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            
+            <div class="user-profile">
+                <i class="fas fa-bell" style="font-size: 20px; margin-right: 15px; color: var(--dark);"></i>
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" alt="User Profile">
+            </div>
+        </div>
+        
+        <!-- Stats Cards -->
+        <div class="dashboard-grid">
+            <div class="card stat-card">
+                <div class="stat-icon bg-blue">
+                    <i class="far fa-eye"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>24.8K</h3>
+                    <p>Impressions</p>
+                </div>
+            </div>
+            
+            <div class="card stat-card">
+                <div class="stat-icon bg-green">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>1.7K</h3>
+                    <p>Engagements</p>
+                </div>
+            </div>
+            
+            <div class="card stat-card">
+                <div class="stat-icon bg-purple">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>328</h3>
+                    <p>Shares</p>
+                </div>
+            </div>
+            
+            <div class="card stat-card">
+                <div class="stat-icon bg-red">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <div class="stat-info">
+                    <h3>562</h3>
+                    <p>New Followers</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Platform Cards -->
+        <div class="platforms">
+            <div class="platform-card">
+                <div class="platform-icon instagram">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div>
+                    <h3>Instagram</h3>
+                    <p>3 scheduled posts</p>
+                </div>
+            </div>
+            
+            <div class="platform-card">
+                <div class="platform-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div>
+                    <h3>Facebook</h3>
+                    <p>12 messages pending</p>
+                </div>
+            </div>
+            
+            <div class="platform-card">
+                <div class="platform-icon telegram">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <div>
+                    <h3>Telegram</h3>
+                    <p>Bot active</p>
+                </div>
+            </div>
+            
+            <div class="platform-card">
+                <div class="platform-icon linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p>2 posts today</p>
+                </div>
+            </div>
+            
+            <div class="platform-card">
+                <div class="platform-icon tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </div>
+                <div>
+                    <h3>TikTok</h3>
+                    <p>Video trending</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Content Section -->
+        <div class="content-section">
+            <!-- Left Column -->
+            <div>
+                <div class="card chart-container">
+                    <div class="section-header">
+                        <h3>Engagement Analytics</h3>
+                        <a href="#" class="view-all">View Report</a>
+                    </div>
+                    <div class="chart-placeholder">
+                        <i class="fas fa-chart-bar" style="font-size: 24px; margin-right: 10px;"></i>
+                        Engagement chart visualization
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div>
+                <div class="card" style="margin-bottom: 20px;">
+                    <div class="section-header">
+                        <h3>Recent Activity</h3>
+                        <a href="#" class="view-all">See All</a>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon bg-blue">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h4>New comment on your post</h4>
+                            <p>"This content is amazing! 🔥"</p>
+                        </div>
+                        <div class="activity-time">2m ago</div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon bg-green">
+                            <i class="fas fa-share"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h4>Your post was shared</h4>
+                            <p>By @influencer_account</p>
+                        </div>
+                        <div class="activity-time">15m ago</div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon bg-purple">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h4>New follower</h4>
+                            <p>@marketing_expert started following you</p>
+                        </div>
+                        <div class="activity-time">1h ago</div>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-icon bg-red">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="activity-content">
+                            <h4>Post engagement</h4>
+                            <p>Your video received 248 likes</p>
+                        </div>
+                        <div class="activity-time">3h ago</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="section-header">
+                        <h3>AI Content Suggestions</h3>
+                        <a href="#" class="view-all">Generate</a>
+                    </div>
+                    <div style="background: #f0f9ff; padding: 15px; border-radius: 8px;">
+                        <h4 style="margin-bottom: 10px;">Trending Topic:</h4>
+                        <p>Create a post about "The Future of Social Media Marketing" with these hashtags:</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px;">
+                            <span style="background: #e0f2fe; padding: 5px 10px; border-radius: 20px; font-size: 12px;">#SocialMediaTips</span>
+                            <span style="background: #e0f2fe; padding: 5px 10px; border-radius: 20px; font-size: 12px;">#DigitalStrategy</span>
+                            <span style="background: #e0f2fe; padding: 5px 10px; border-radius: 20px; font-size: 12px;">#Marketing2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple interactivity for menu items
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.menu-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
